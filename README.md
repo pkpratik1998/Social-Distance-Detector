@@ -13,19 +13,19 @@ It's a COVID-19 social distance violation detector using OpenCV, Deep Learning, 
 
 Put the downloaded folder as per below directory structure.
 
-$ tree --dirsfirst
-.
-├── libraries
-│   ├── __init__.py
-│   ├── detection.py
-│   └── social_distancing_config.py
-├── yolo-coco
-│   ├── coco.names
-│   ├── yolov3.cfg
-│   └── yolov3.weights
-├── output.avi
-├── Subway.mp4
-└── social_distance_detector.py
+$ tree --dirsfirst<br>
+.<br>
+├── libraries<br>
+│    ├── __init__.py<br>
+│    ├── detection.py<br>
+│    └── social_distancing_config.py<br>
+├── yolo-coco<br>
+│    ├── coco.names<br>
+│    ├── yolov3.cfg<br>
+│    └── yolov3.weights<br>
+├── output.avi<br>
+├── Subway.mp4<br>
+└── social_distance_detector.py<br>
 2 directories, 9 files
 
 <h3>Project Structure :</h3>
