@@ -1,12 +1,32 @@
 # Social-Distance-Detector
 
-<b>Due to file limit I was unable to push a file in this repository.
-So I uploaded the project files on drive. use the link below to download.</b>
-
-<b>link</b>- https://drive.google.com/file/d/17_5mhh6pKa-bkb9hoJWFweca-AsiSptQ/view?usp=sharing
-
 
 It's a COVID-19 social distance violation detector using OpenCV, Deep Learning, and Computer Vision.
+
+<h1>Dependencies:</h1>
+1) Python >= 3.6.<br>
+2) OpenCV.<br>
+3) YOLO V3.<br>
+4) NVIDIA GPU.
+
+<h2>Download YOLOv3:</h2> <b>link</b>- https://drive.google.com/drive/folders/1hUBKEFeGoi8KIyIpJHpE2kdBE4x13iYA?usp=sharing
+
+Put the downloaded folder as per below directory structure.
+
+$ tree --dirsfirst
+.
+├── libraries
+│   ├── __init__.py
+│   ├── detection.py
+│   └── social_distancing_config.py
+├── yolo-coco
+│   ├── coco.names
+│   ├── yolov3.cfg
+│   └── yolov3.weights
+├── output.avi
+├── Subway.mp4
+└── social_distance_detector.py
+2 directories, 9 files
 
 <h3>Project Structure :</h3>
 1) The configuration file used to keep the implementation neat and tidy. <br>
